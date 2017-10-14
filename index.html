@@ -1,26 +1,217 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Darshan Shah</title>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <!-- jQuery -->
-        <script   src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
-        </script>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Darshan B Shah</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link href=' http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="shortcut icon" href="img/DS Logo.png" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/typed.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script src="https://use.fontawesome.com/1c60a6053f.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+</head>
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-        </script>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<div id="sec-1" class="container-fluid">
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top" id="myNavbar">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">D<span class="s">S</span></a>
+					</div>
 
-    </head>
-    <body>
-        <div class="container text-center">
-            <h1 class="lead">Hello World!</h1>
-        </div>
-    </body>
+					<div class="collapse navbar-collapse" id="collapse-1">
+						<ul class="nav navbar-nav navbar-right lead">
+							<li><a href="#sec-1">Home</a></li>
+							<li><a href="#sec-2">About</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+						                <li><a href="#sec-3">Motion Detection</a></li>
+						                <li><a href="#sec-4">N. I. C. E.</a></li>
+						                <li><a href="#sec-5">Movie Release Notifier</a></li>
+						                <li><a href="#sec-6">Hangman</a></li>
+						                </ul>
+							</li>
+							<li><a href="#sec-7">Social</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<p class="lead">
+			<span class="wow fadeIn" data-wow-delay="2.25s">I'm </span><span class="name">Darshan</span>
+			<div class="details"></div><br />
+		</p>
+		<p class="lead wow fadeIn" id="scroll" data-wow-delay="5s">Scroll down to know more<br /><br />
+
+	</div>
+	<div id="sec-2" class="container-fluid">
+		<p class="lead">About <span class="me">Me</span></p>
+		<hr>
+		<img class="img-responsive img-circle" src="img/me.jpg">
+		<div class="container">
+                        <div class="col-sm-12">
+			<p class="detail lead wow fadeInUp">
+				Hey there, people! I am Darshan Shah. I am a Computer Science student at Amrita Vishwa Vidyapeetham, Coimbatore. I am a Web Designer and a big fan of Flat Designs & Material Designs. Apart from web, Artificial Intelligence is something that sparks my enthusiasm. I like to keep my array of skills as large as possible. Want to know more? 
+			</p>
+                        </div>
+			<a href="materials/Resume.pdf" class="wow fadeIn" data-wow-delay="1s" target="_blank">Download Résumé</a>
+		</div>
+
+	</div>
+
+	</div>
+	<div id="sec-3" class="container-fluid">
+		<p class="lead">Projects</p>
+		<div class="container">
+			<div class="row wow fadeInUp">
+				<div class="col-sm-6">
+					<p class="lead pull-left" style="font-size: 40px">Motion Detection</p>
+				</div>
+			</div>
+			<div class="row wow fadeInUp">
+				<div class="col-sm-6">
+					<p class="lead project-1">
+						Want to save money by switching off you lights and fans automatically? Use this project, modify it according to your needs and you'll do good.<br/><br />
+						This project was made to sense motion in front of a motion sensor. It uses a PIR
+						sensor for motion detection and Arduino Uno as the micro controller. This could
+						be further enhanced by using Relay and connecting a tube light or a fan to it,
+						forming the basis of a smart home. You can see the code <a href="https://www.github.com/darshanxyz/Motion-Detection-using-Arduino" target="_blank">here</a>.
+					</p>
+				</div>
+				<div class="col-sm-6">
+					<img src="img/arduino logo.png" class="img-circle img-responsive">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sec-4" class="container-fluid">
+		<p class="lead"></p>
+		<br /> <br />
+		<div class="container">
+			<div class="row wow fadeInUp">
+				<div class="col-sm-6"></div>
+				<div class="col-sm-6">
+					<p class="lead pull-left" style="font-size: 40px">N. I. C. E.</p>
+				</div>
+			</div>
+			<div class="row wow fadeInUp">
+				<div class="col-sm-6">
+					<img src="img/c lang.png" class="img-circle img-responsive">
+				</div>
+				<div class="col-sm-6">
+					<p class="lead project-2">
+						I have noticed intelligent coders almost everytime forget to end their code with a '}'. Wouldn't it be nice if we were never to type those curly braces? Have you ever thought if typing the semi colon at the end of your code statement wouldn't make a difference to your code? If you have, then N. I. C. E. is for you guys. <br /><br />  N. I. C. E. stands for <i>Natural Interpreted Computer English</i>. It is an interpreter
+					written in <i>C</i> language that understands normal English. It is inspired from
+					Python (Hats off to the guys who created Python). You can see my code <a href="https://www.github.com/darshanxyz/NICE" target="_blank">here</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sec-5" class="container-fluid">
+		<p class="lead"></p>
+		<br /><br />
+		<div class="container">
+			<div class="row wow fadeInUp">
+				<div class="col-sm-6"></div>
+				<div class="col-sm-6">
+					<p class="lead pull-left" style="font-size: 40px">Movie Release Notifier</p>
+				</div>
+			</div>
+			<div class="row wow fadeInUp">
+
+				<div class="col-sm-6">
+					<img src="img/python white.png" class="img-circle img-responsive">
+				</div>
+				<div class="col-sm-6">
+					<p class="lead project-3">
+						It's thursday today and you know that tomorrow, that is, friday is the day when a great movie is going to be released and you have taken the responsibilty to book tickets for yourself and your friends. You don't want to miss the first show of the first day and the bookings start at midnight. But you are so exhausted after a tiresome day and you want to take a nap. No issues. Just let this script run in the background and take a short nap.<br /> <br />
+						This is a script written in <i>Python</i> that uses web scraping technique to find if a
+						particular movie is released or not. It minimises the user’s work to go to the
+						multiplex’s website and search for the movie. It automatically sends the user
+						an email if the movie is released. You can see the code <a href="https://www.github.com/darshanxyz/Movie-Release-Notifier" target="_blank">here</a>.
+					</p>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<div id="sec-6" class="container-fluid">
+		<p class="lead"></p>
+		<br /> <br />
+		<div class="container">
+			<div class="row wow fadeInUp">
+				<div class="col-sm-6"></div>
+				<div class="col-sm-6">
+					<p class="lead pull-left" style="font-size: 40px">Hangman</p>
+				</div>
+			</div>
+			<div class="row wow fadeInUp">
+				<div class="col-sm-6">
+					<img src="img/python.png"  class="img-circle img-responsive">
+				</div>
+				<div class="col-sm-6">
+					<p class="lead project-4">
+						I am pretty sure you've heard of this game. Don't remember? Not an issue. Click <a href="https://en.wikipedia.org/wiki/Hangman_(game)" target="_blank">here</a> to go to the wikipedia page of the game.<br /> Through this project I have tried to virtualise the old game of hangman using <i>Python</i>. You can see the code <a href="https://www.github.com/darshanxyz/Hangman" target="_blank">here</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sec-7" class="container-fluid">
+		<p class="lead">Social</p>
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-sm-4 wow fadeInUp">
+					<a href="https://www.facebook.com/darshanxyz" target="_blank">
+						<i class="fa fa-facebook-square fa-5x" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="col-sm-4 wow fadeInUp" data-wow-delay="0.25s">
+					<a href="https://twitter.com/darshan_xyz" target="_blank">
+						<i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
+					<a href="https://github.com/darshanxyz" target="_blank">
+						<i class="fa fa-git-square fa-5x" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+
+			<p class="lead foot">
+				<a href="#sec-1">
+					<i class="fa fa-chevron-up wow fadeInDown" data-wow-delay="1s" aria-hidden="true"></i>
+				</a><br /><br />
+				Designed by <span class="me blue-green">Darshan Shah</span> | 2016
+			</p>
+		</div>
+	</div>
+
+	<script src="js/loading.js"></script>
+	<script src="js/clicktoscroll.js"></script>
+	<script src="js/dropdownfade.js"></script>
+
+</body>
 </html>
