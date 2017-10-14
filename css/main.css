@@ -1,0 +1,420 @@
+#sec-1 {
+	color: #fff;
+	background-color: #323233;
+	height: 800px;
+	padding: 0px;
+	text-align: center;
+	font-family: "Dosis";
+}
+
+nav {
+	background-color: #323233 !important;
+	border: 0px !important;
+	padding: inherit;
+	margin: inherit;
+}
+
+nav a {
+	color: #12b5ac !important;
+}
+
+.navbar-header button {
+	border: 0px !important;
+}
+
+#collapse-1 li {
+	font-size: large;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.nav li a {
+	color: #777777 !important;
+}
+
+.nav li a:hover {
+	color: #12b5ac !important;
+	 -webkit-transition: color 0.2s ease-in !important;
+	transition: color 0.2s ease-in !important;
+}
+
+.navbar-nav > .active > a {
+      color: #12b5ac !important;
+      background-color: #323233 !important;
+}
+
+.dropdown-menu > .active > a {
+      color: #12b5ac !important;
+      background-color: #323233 !important;
+}
+.navbar-brand {
+	font-size: xx-large !important;
+}
+
+
+
+.s {
+	color: #777777;
+}
+
+.details {
+	font-size: x-large;
+	font-weight: 100;
+}
+
+#sec-1 p {
+	font-size: 70px;
+	font-weight: 100;
+	padding-top: 15%;
+}
+
+.name {
+	font-weight: 200;
+	color: #12b5ac;
+}
+
+
+#scroll {
+	font-size: 20px !important;
+	padding-top: 0 !important;
+}
+
+#scroll a {
+	color: #12b5ac;
+}
+
+#sec-2 {
+        padding-top: 50px;
+	height: 1080px;
+	background-color: #fff;
+	text-align: center;
+	font-family: "Dosis";
+}
+
+#sec-2 p {
+	font-size: 50px;
+	font-weight: 100;
+	padding-top: 5%;
+	margin-top: 10px;
+}
+
+#sec-2 detail {
+	font-size: 50px;
+	font-weight: 100;
+	padding-top: 5%;
+	margin-top: 10px;
+        text-align: justify !important;
+}
+
+.me {
+	font-weight: 500;
+}
+
+#sec-2 hr {
+	width: 20%;
+	background-color: #12b5ac;
+	height: 1px;
+}
+
+#sec-2 img {
+	position: relative;
+	top: 0px;
+	height: 140px;
+	width: 140px;
+}
+
+#sec-2 .img-responsive, #sec-3 .img-responsive {
+	margin: 0 auto;
+}
+
+#sec-2 .detail {
+	position: relative;
+	top: 30px;
+	font-size: 20px;
+}
+
+#sec-2 a {
+	position: relative;
+	top: 30px;
+	font-size: 20px;
+	color: #12b5ac;
+}
+
+#sec-2 img {
+	position: relative;
+	top: 50px;
+	height: 150px;
+	width: 150px;
+}
+
+@media screen and (max-width: 25em) {
+	#sec-3 {
+	position: relative;
+        padding-top: 50px;
+	height: 1000px !important;
+	text-align: center;
+	font-family: "Avenir";
+	background-color: #323233;
+	}
+	.dropdown-menu {
+	width: 100%;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	#sec-1 {
+	    height: 1000px;
+	}
+	
+	#sec-3 {
+	    height: 1000px !important;
+	}
+	
+	#sec-4 {
+	    height: 1000px !important;
+	}
+	
+	#sec-6 {
+	    height: 1000px !important;
+	}
+	
+	#sec-7 {
+	    height: 1000px !important;
+	}
+	
+	#sec-7 .foot {
+	padding-top: 20% !important;
+	color: #fff !important;
+	font-size: 15px !important;
+}
+	
+}
+
+#sec-3 {
+	position: relative;
+        padding-top: 50px;
+	height: 840px;
+	text-align: center;
+	font-family: "Dosis";
+	background-color: #323233;
+}
+
+#sec-3 p {
+	font-size: 50px;
+	font-weight: 100;
+	padding-top: 5%;
+	color: #12b5ac;
+}
+
+#sec-3 hr {
+	width: 15%;
+}
+
+
+
+#sec-3 .project-1 {
+	color: #fff;
+	font-size: large;
+	text-align: justify;
+}
+
+
+
+#sec-3 .img-responsive {
+	margin: auto;
+}
+
+#sec-3 img {
+	position: relative;
+	top: 0px;
+	height: 220px;
+	width: 220px;
+}
+
+@media screen and (max-width: 25em) {
+	#sec-4 {
+	position: relative;
+	height: 950px !important;
+	text-align: center;
+	font-family: "Avenir";
+	background-color: #fff;
+	}
+}
+
+#sec-4 {
+	position: relative;
+	height: 840px;
+	text-align: center;
+	font-family: "Dosis";
+	background-color: #fff;
+}
+
+#sec-4 p {
+	font-size: 50px;
+	font-weight: 100;
+	padding-top: 5%;
+	color: #12b5ac;
+}
+
+#sec-4 .project-2 {
+	color: #323233;
+	font-size: large;
+	text-align: justify;
+}
+
+#sec-4 .img-responsive {
+	margin: auto;
+}
+
+#sec-4 img {
+	position: relative;
+	top: 0px;
+	height: 220px;
+	width: 220px;
+}
+
+@media screen and (max-width: 25em) {
+	#sec-5 {
+	height: 1150px !important;
+	text-align: center;
+	font-family: "Dosis";
+	background-color: #323233;
+	}
+}
+
+#sec-5 {
+	height: 950px;
+	text-align: center;
+	font-family: "Dosis";
+	background-color: #323233;
+}
+
+#sec-5 .project-3 {
+	color: #fff;
+	font-size: large;
+	text-align: justify;
+}
+
+
+#sec-5 p {
+	font-size: 50px;
+	font-weight: 100;
+	padding-top: 5%;
+	color: #12b5ac;
+}
+
+#sec-5 hr {
+	width: 15%;
+}
+
+#sec-5 .img-responsive {
+	margin: auto;
+}
+
+#sec-5 img {
+	position: relative;
+	top: 0px;
+	height: 220px;
+	width: 220px;
+}
+
+#sec-6 {
+	height: 800px;
+	text-align: center;
+	font-family: "Dosis";
+	background-color: #fff;
+}
+
+#sec-6 p {
+	font-size: 50px;
+	font-weight: 100;
+	padding-top: 5%;
+	color: #12b5ac;
+}
+
+#sec-6 .project-4 {
+	color: #323233;
+	font-size: large;
+	text-align: justify;
+}
+
+#sec-6 .img-responsive {
+	margin: auto;
+}
+
+#sec-6 img {
+	position: relative;
+	top: 0px;
+	height: 220px;
+	width: 220px;
+}
+
+
+#sec-7 {
+        padding-top: 80px;
+	height: 700px;
+	text-align: center;
+	font-family: "Dosis";
+	background-color: #323233;
+}
+
+#sec-7 .lead {
+	font-size: 50px;
+	font-weight: 100;
+	padding-top: 5%;
+	color: #12b5ac;
+	text-align: center;
+}
+
+#sec-7 hr {
+	width: 15%;
+}
+
+
+#sec-7 .project-1 {
+	color: #fff;
+	font-size: large;
+	text-align: justify;
+}
+
+
+
+#sec-7 .img-responsive {
+	margin: auto;
+}
+
+
+#sec-7 .row {
+	padding: 10% 15%;
+}
+
+#sec-7 i {
+	color: lightgrey;
+}
+
+#sec-7 i:hover {
+	color: #fff;
+}
+
+#sec-7 .foot {
+	padding-top: 1%;
+	color: #fff !important;
+	font-size: 15px !important;
+}
+
+p a {
+	color: #12b5ac;
+}
+
+.blue-green {
+	color: #12b5ac;
+}
+
+
+
+
+
+
+
+/* grey: #323233
+blue-green: #12b5ac */
